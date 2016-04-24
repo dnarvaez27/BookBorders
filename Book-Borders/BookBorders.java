@@ -90,7 +90,7 @@ public class BookBorders
 							test = "";
 						}
 					}
-                    // System.out.println( "\n" + l + ":" );
+                			// System.out.println( "\n" + l + ":" );
 					// for( String s : rta )
 					// {
 					// System.out.println( s );
