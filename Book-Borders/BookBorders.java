@@ -2,6 +2,9 @@ import java.io.BufferedReader;
 import java.io.InputStreamReader;
 import java.util.ArrayList;
 
+/**
+* @author d.narvaez11
+**/
 public class BookBorders
 {
 	public static ArrayList<Integer> toInteger( String[ ] lines )
