@@ -25,11 +25,11 @@ Output b − a + 1 lines – the k-th of those lines should contain a single int
 
 ######**Example** 
 **input**
-its a long way to the top if you wanna rock n roll 
-13 16 
+* its a long way to the top if you wanna rock n roll
+* 13 16 
 
 **output**
-22 
-12 
-12 
-15
+* 22 
+* 12 
+* 12 
+* 15
