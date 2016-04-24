@@ -13,7 +13,7 @@ public class BookBorders
 		}
 		return nums;
 	}
-
+    
 	public static void leadingLines( ArrayList<String> lines )
 	{
 		int contador = 0;
