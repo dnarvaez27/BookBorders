@@ -28,7 +28,7 @@ public class BookBorders
 		contador--;
 		System.out.println( /* "=" + */contador );
 	}
-
+	
 	public static void main( String[ ] args )
 	{
 		try( BufferedReader bf = new BufferedReader( new InputStreamReader( System.in ) ) )
