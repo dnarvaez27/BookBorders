@@ -30,12 +30,13 @@ public class BookBorders
 		try( BufferedReader bf = new BufferedReader( new InputStreamReader( System.in ) ) )
 		{
 			String libro = bf.readLine( );
-			
+
 			while( libro != null )
 			{
+				String[ ] lims = bf.readLine( ).split( " " );
+				
 				Long ini = System.currentTimeMillis( );
 				
-				String[ ] lims = bf.readLine( ).split( " " );
 				int a = Integer.parseInt( lims[ 0 ] );
 				int b = Integer.parseInt( lims[ 1 ] );
 				String[ ] lineas = libro.split( " " );
@@ -98,7 +99,7 @@ public class BookBorders
 		}
 		catch( Exception e )
 		{
- 	
+
 		}
 	}
 }
