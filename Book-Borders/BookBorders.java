@@ -22,7 +22,7 @@ public class BookBorders
 			contador += s.indexOf( "." ) + 1;
 		}
 		contador--;
-		System.out.println( contador );
+		System.out.println( /* "=" + */contador );
 	}
 
 	public static void main( String[ ] args )
@@ -90,6 +90,11 @@ public class BookBorders
 							test = "";
 						}
 					}
+                    // System.out.println( "\n" + l + ":" );
+					// for( String s : rta )
+					// {
+					// System.out.println( s );
+					// }
 					BookBorders.leadingLines( rta );
 				}
 				Long end = System.currentTimeMillis( );
