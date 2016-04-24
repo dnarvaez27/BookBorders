@@ -17,13 +17,13 @@ roll..........|
 
 You are given a text to be typeset and are experimenting with different values of the maximum line length m. For a fixed m, the leading sentence is a sentence (a sequence of words separated with a single space character) formed by the first words of lines top to bottom. In the example above, when the sample text is typeset with the maximum line length 14, the leading sentence is “its to you n”. Given a text and two integers a and b, find the length of the leading sentence for every candidate maximum line length between a and b inclusive. The length of a sentence is the total number of characters it contains including the space characters.
 
-#####**Input**
+####**Input**
 The first line contains the text to be typeset – a sequence of words separated by exactly one space character. Each word is a string consisting of one or more lowercase letters from the English alphabet. The second line contains two integers a and b – the edges of the interval we are interested in, as described above. It is guaranteed that 1 ≤ w ≤ a ≤ b ≤ z ≤ 500 000, where w is the length of the longest word in the text and z is the total number of characters in the text including the space characters.
 
-#####**Output**
+####**Output**
 Output b − a + 1 lines – the k-th of those lines should contain a single integer – the total length of the leading sentence when the maximum line length is equal to a − 1 + k.
 
-######**Example** 
+#####**Example** 
 **input**
 * its a long way to the top if you wanna rock n roll
 * 13 16 
